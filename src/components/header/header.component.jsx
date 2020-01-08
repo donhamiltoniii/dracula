@@ -19,7 +19,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  description: `Poop chicken`,
+  description: ``,
   siteTitle: ``,
 }
 

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Dracula`,
-    description: `A thing for poop jokes on the internet`,
+    description: `A quick GatsbyJS example`,
     author: `@donhamiltoniii`,
   },
   plugins: [
@@ -14,6 +14,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
